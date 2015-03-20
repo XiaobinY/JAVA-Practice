@@ -33,5 +33,8 @@ public class MyHashMap {
 		for ( Integer value : values){
 			System.out.println(value);
 		}
+		
+		// clear and clone
+		
 	}	
 }

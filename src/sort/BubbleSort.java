@@ -3,8 +3,6 @@ package sort;
 import sort.Helper;
 
 public class BubbleSort {
-	
-	
 	public static void bubbleSort(int[] input){
 		System.out.println("Array Length is " + input.length);
 		//System.out.println("Original array is " + Arrays.toString(input));

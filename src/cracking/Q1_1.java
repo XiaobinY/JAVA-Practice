@@ -1,7 +1,5 @@
 package cracking;
 
-import java.util.Arrays;
-
 public class Q1_1 {
 // if a string has all unique characters
 	public static boolean isUnique1(String str){

@@ -36,11 +36,9 @@ public class LongestSubstringWithoutRepeatChar {
 				list[index] = tail;
 				if(tail - head + 1 > max) max = tail - head + 1;
 			} else {
-				
 				for(int i = head; i < list[index]; ++i){
 					list[str.charAt(i)] = null;
 				}
-				
 				head = list[index] + 1;
 				list[index] = tail;
 			}
@@ -49,9 +47,9 @@ public class LongestSubstringWithoutRepeatChar {
 	}
 	
 	public static void main(String[] args){
-		String a = "aabcxcda";
+		//String a = "aabcxcda";
 		String b = "tmmzuxt";
-		String c = "aaaaa";
+		//String c = "aaaaa";
 		
 		System.out.println(lengthOfLongestSubstring(b));
 	}
